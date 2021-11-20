@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:century Gothic;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image.jpg);
+    background-position: center;
+    height:100vh;
+    background-size: cover;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    margin-top: 25px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+.logo img{
+    float:left;
+    width: 150px;
+    height: auto;
+}
+ul li.active a{
+    background-color: #fff;
+    color:black;
+}
+.title{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    font-size: 70px;
+    color: white;
+
+}
+.button{
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.button a{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    background-color:white;
+}
+#line{
+    margin-top: 35px;
+}
